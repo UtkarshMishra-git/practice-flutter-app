@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practice_application/addimages.dart';
 import 'package:practice_application/buttons.dart';
 
 void main() {
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       // home: LearnContainer(),
-      home: MyButtons(),
+      // home: MyButtons(),
+      home: AddImages(),
     );
   }
 }
