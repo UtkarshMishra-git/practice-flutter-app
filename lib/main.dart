@@ -27,14 +27,17 @@ class LearnWidgets extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Container'),
+      ),
       // body:AddContainer()
       // body: MyButtons(),
       // body: AddImages(),
-      // body: AddGradient());
-      body: ColumnRow(),
-      appBar: AppBar(
-        title: Text('Container'),
-      ),
+      // body: AddGradient(Color.fromARGB(255, 3, 74, 132), Colors.black),
+      // body: AddGradient(colors: [Color.fromARGB(255, 3, 74, 132), Colors.black],), //---- with list
+      //calling another gradient constructor
+      body: AddGradient.purple(),
+      // body: ColumnRow(),
     );
   }
 }
