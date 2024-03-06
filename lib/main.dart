@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practice_application/addgradient.dart';
 import 'package:practice_application/addimages.dart';
 import 'package:practice_application/buttons.dart';
 
@@ -11,12 +12,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      // home: LearnContainer(),
-      // home: MyButtons(),
-      home: AddImages(),
-    );
+    return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        // home: LearnContainer(),
+        // home: MyButtons(),
+        // home: AddImages(),
+        home: AddGradient());
   }
 }
 
